@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "761352816722",
+    "firebase_url": "https://osijek-kviz-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "osijek-kviz",
+    "storage_bucket": "osijek-kviz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761352816722:android:8dedca6ad26603d4f7b78b",
+        "android_client_info": {
+          "package_name": "com.zoneproduction.osjekikviz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761352816722-j7ahlb21qmrgs9u0vsotagmm0b9frdds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0G-MkH7Fm-xM6b2WD0hpVJf0Gf7F2kGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761352816722-j7ahlb21qmrgs9u0vsotagmm0b9frdds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
