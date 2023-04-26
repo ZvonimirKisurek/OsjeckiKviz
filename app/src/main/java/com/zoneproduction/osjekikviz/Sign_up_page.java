@@ -48,6 +48,7 @@ public class Sign_up_page extends AppCompatActivity {
         });
     }
 
+    //Kreiranje korisničkog računa
     public void signUpFirebase(String userEmail, String userPassword){
 
         progressBar.setVisibility(View.VISIBLE);

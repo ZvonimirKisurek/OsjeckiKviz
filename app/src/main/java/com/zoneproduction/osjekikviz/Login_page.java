@@ -31,8 +31,8 @@ public class Login_page extends AppCompatActivity {
     Button SignIn;
     TextView signUp, forgotPassword;
     ProgressBar progressBarSignIn;
-    FirebaseAuth auth = FirebaseAuth.getInstance();
 
+    FirebaseAuth auth = FirebaseAuth.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,6 +80,7 @@ public class Login_page extends AppCompatActivity {
         });
     }
 
+    //korisnik se logira u sami sustav firebase
     public void signInWithFirebase(String userEmail, String userPassword) {
 
         progressBarSignIn.setVisibility(View.VISIBLE);
@@ -106,6 +107,7 @@ public class Login_page extends AppCompatActivity {
         });
     }
 
+    //korisnik ostaje ulogiran i ne zahtjeva ponovnu prijavu
     @Override
     protected void onStart() {
         super.onStart();
